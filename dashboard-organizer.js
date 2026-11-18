@@ -91,6 +91,6 @@
   }
 
   const observer = new MutationObserver(enhance);
-  const start = () => { const root = $('#adminModal') || document.body; observer.observe(root, { attributes: true, subtree: true, attributeFilter: ['hidden', 'class'] }); setInterval(enhance, 500); enhance(); };
+  const start = () => { const root = $('#adminModal') || document.body; observer.observe(root, { attributes: true, subtree: true, attributeFilter: ['hidden', 'class'] }); setInterval(enhance, 2000); enhance(); };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
 })();
