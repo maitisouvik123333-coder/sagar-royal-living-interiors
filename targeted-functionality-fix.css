@@ -1,0 +1,6 @@
+/* Targeted functional polish: preserve the existing luxury theme. */
+.product-visual .visual-copy{display:none!important}
+.media-tools{margin-top:14px;padding-top:12px;border-top:1px solid color-mix(in srgb,var(--gold) 28%,transparent)}
+.media-tools .ops-actions{display:flex;gap:8px;flex-wrap:wrap}
+.media-tools video{display:block;width:min(100%,420px);margin-top:12px;border:1px solid var(--gold);border-radius:10px;background:#04120e;aspect-ratio:16/9;object-fit:cover}
+.media-tools video[hidden]{display:none}

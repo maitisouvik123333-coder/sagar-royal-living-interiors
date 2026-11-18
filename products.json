@@ -1,0 +1,19 @@
+{
+  "business": {
+    "name": "SAGAR ROYAL Living & Interiors",
+    "phone": "6294193478",
+    "whatsappNumber": "916294193478",
+    "email": "maitisouvik123333@gmail.com",
+    "location": "Rudranagar, Gangasagar, West Bengal",
+    "serviceArea": "Gangasagar & Sundarbans"
+  },
+  "calculator": {"defaultPricePerSqFt": 80,"wastagePercent": 5,"panelDimensions":[{"label":"10 ft × 1.5 ft","coverageSqFt":15},{"label":"10 ft × 1 ft","coverageSqFt":10}]},
+  "products": [
+    {"name":"Aria Ripple","category":"PVC Wall Panels","finish":"Sculpted matte texture","price":125,"tag":"Waterproof","tone":"sand"},
+    {"name":"Nordic Oak","category":"WPC Louvers","finish":"Natural oak grain","price":145,"tag":"Best Seller","tone":"oak"},
+    {"name":"Calacatta Veil","category":"UV Marble Sheets","finish":"Soft white marble","price":165,"tag":"Premium","tone":"marble"},
+    {"name":"Obsidian Line","category":"PVC Wall Panels","finish":"Charcoal linear relief","price":139,"tag":"New Arrival","tone":"slate"},
+    {"name":"CleanLine White","category":"PVC Ceiling","finish":"Bright satin finish","price":99,"tag":"Low Maintenance","tone":"white"},
+    {"name":"Dark Walnut","category":"WPC Louvers","finish":"Deep walnut grain","price":155,"tag":"Premium","tone":"walnut"}
+  ]
+}
