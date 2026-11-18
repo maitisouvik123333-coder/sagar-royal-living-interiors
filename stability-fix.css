@@ -1,0 +1,42 @@
+/* Sagar Royal interaction stability patch — visual design intentionally unchanged. */
+html,
+body {
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.app {
+  min-height: 100vh;
+  overflow: visible;
+}
+
+/* Keep horizontal comparison interaction local without blocking page scrolling. */
+.comparison-real {
+  touch-action: pan-y;
+}
+
+/* Hidden generated panels must never intercept taps. */
+[hidden],
+[aria-hidden="true"] {
+  pointer-events: none;
+}
+
+[hidden] * {
+  pointer-events: none;
+}
+
+.modal:not([hidden]),
+.variant-explorer-modal:not([hidden]),
+.product-lookbook-modal:not([hidden]) {
+  pointer-events: auto;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
